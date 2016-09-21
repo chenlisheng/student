@@ -8,6 +8,8 @@ import Resource from 'vue-resource'
 import VueMdl from 'vue-mdl'
 
 import App from './components/App'
+import Home from './components/Home'
+import Login from './components/Login'
 
 Vue.config.debug = true
 Vue.use(Router)

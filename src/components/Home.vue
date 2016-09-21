@@ -25,7 +25,7 @@
         <nav class="mdl-navigation">
           <div class="keywords-search">
             <input type="text" placeholder="搜索关键词..." v-model="searchKeyWords"/>
-            <i class="material-icons">search</i>
+            <i class="material-icons" @click="showMsg">search</i>
           </div>
         </nav>
       </div>
@@ -35,20 +35,20 @@
       </div>
       <div class="tab_bar">
         <ul>
-          <li><a href="#panel-1" class="mdl-layout__tab">学校概况</a></li>
-          <li><a href="#panel-2" class="mdl-layout__tab">机构设置</a></li>
-          <li><a href="#panel-3" class="mdl-layout__tab">师资队伍</a></li>
-          <li><a href="#panel-1" class="mdl-layout__tab">人才培养</a></li>
-          <li><a href="#panel-1" class="mdl-layout__tab">科学研究</a></li>
-          <li><a href="#panel-1" class="mdl-layout__tab">社会服务</a></li>
-          <li><a href="#panel-1" class="mdl-layout__tab">交流合作</a></li>
-          <li><a href="#panel-1" class="mdl-layout__tab">文化生活</a></li>
+          <li><a href="" class="mdl-layout__tab">学校概况</a></li>
+          <li><a href="" class="mdl-layout__tab">机构设置</a></li>
+          <li><a href="" class="mdl-layout__tab">师资队伍</a></li>
+          <li><a href="" class="mdl-layout__tab">人才培养</a></li>
+          <li><a href="" class="mdl-layout__tab">科学研究</a></li>
+          <li><a href="" class="mdl-layout__tab">社会服务</a></li>
+          <li><a href="" class="mdl-layout__tab">交流合作</a></li>
+          <li><a href="" class="mdl-layout__tab">文化生活</a></li>
         </ul>
       </div>
     </div>
     <div class="popup">
       <ul>
-        <li v-for="msg in popupMsg[0].value" :click="popupLink({{msg.value}})">{{msg.name}}</li>
+        <li v-for="msg in data" @click="showMsg">{{msg.firstname}}</li>
       </ul>
     </div>
   </div>
@@ -56,77 +56,25 @@
 
 <script>
 export default {
-  methods () {
-    function popupLink (value) {
-
+  methods: {
+    showMsg: function(){
+      alert('test');
     }
+  },
+  attached() {
+    let url = SERVER_API.users;
+      //获取数据列表
+    this.$http({ url: url, method: 'GET'})
+    .then(function(response) {
+      let data = response.data;
+      this.data = data;
+    }, function(response) {
+      
+    });
   },
   data () {
     return {
-      popupMsg: [{
-        name: 'survey',
-        value: [{
-          name: '111111',
-          value: 'www.baudu.com'
-        },
-        {
-          name: '111111',
-          value: 'www.baudu.com'
-        },
-        {
-          name: '111111',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'organization',
-        value: [{
-          name: '222222',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'teachers',
-        value: [{
-          name: '333333',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'talent',
-        value: [{
-          name: '444444',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'science',
-        value: [{
-          name: '555555',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'society',
-        value: [{
-          name: '666666',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'communicate',
-        value: [{
-          name: '777777',
-          value: 'www.baudu.com'
-        }]
-      },
-      {
-        name: 'cultural',
-        value: [{
-          name: '888888',
-          value: 'www.baudu.com'
-        }]
-      }]
+      data:[],
     }
   }
 }
