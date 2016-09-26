@@ -25,40 +25,191 @@
         <nav class="mdl-navigation">
           <div class="keywords-search">
             <input type="text" placeholder="搜索关键词..." v-model="searchKeyWords"/>
-            <i class="material-icons" @click="showMsg">search</i>
+            <i class="material-icons">search</i>
           </div>
         </nav>
       </div>
     </header>
-    <div class="mdl-layout__tab-bar">
+    <div class="tab_bar_list">
       <div class="logo">
       </div>
       <div class="tab_bar">
-        <ul>
-          <li><a href="" class="mdl-layout__tab">学校概况</a></li>
-          <li><a href="" class="mdl-layout__tab">机构设置</a></li>
-          <li><a href="" class="mdl-layout__tab">师资队伍</a></li>
-          <li><a href="" class="mdl-layout__tab">人才培养</a></li>
-          <li><a href="" class="mdl-layout__tab">科学研究</a></li>
-          <li><a href="" class="mdl-layout__tab">社会服务</a></li>
-          <li><a href="" class="mdl-layout__tab">交流合作</a></li>
-          <li><a href="" class="mdl-layout__tab">文化生活</a></li>
-        </ul>
+        <dl id="school_survey" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>学校概况</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">学校简介</a></dd>
+            <dd><a href="#">武大标识</a></dd>
+            <dd><a href="#">百年校史</a></dd>
+            <dd><a href="#">历任领导</a></dd>
+            <dd><a href="#">现任领导</a></dd>
+            <dd><a href="#">杰出校友</a></dd>
+            <dd><a href="#">武大百科</a></dd>
+            <dd><a href="#">统计概览</a></dd>
+            <dd><a href="#">校园导览</a></dd>
+          </dl>
+        </dl>
+        <dl id="organization_setup" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>机构设置</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">院系设置</a></dd>
+            <dd><a href="#">职能部门</a></dd>
+            <dd><a href="#">群团组织</a></dd>
+            <dd><a href="#">直属单位</a></dd>
+            <dd><a href="#">附属医院</a></dd>
+          </dl>
+        </dl>
+        <dl id="teacher_staff" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>师资队伍</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">两院院士</a></dd>
+            <dd><a href="#">人文社科资深教授</a></dd>
+            <dd><a href="#">国家教学名师</a></dd>
+            <dd><a href="#">国家杰青</a></dd>
+            <dd><a href="#">长江学者</a></dd>
+          </dl>
+        </dl>
+        <dl id="talent_cultivation" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>人才培养</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">本科生教育</a></dd>
+            <dd><a href="#">研究生教育</a></dd>
+            <dd><a href="#">国际教育</a></dd>
+            <dd><a href="#">学生资助</a></dd>
+            <dd><a href="#">继续教育</a></dd>
+          </dl>
+        </dl>
+        <dl id="scientific_research" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>科学研究</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">2011计划</a></dd>
+            <dd><a href="#">多学科交叉研究院</a></dd>
+            <dd><a href="#">科研机构</a></dd>
+            <dd><a href="#">学术期刊</a></dd>
+            <dd><a href="#">学科建设</a></dd>
+          </dl>
+        </dl>
+        <dl id="social_services" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>社会服务</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">驻外研究机构</a></dd>
+            <dd><a href="#">科技成果转化平台</a></dd>
+            <dd><a href="#">重点产学研发中心</a></dd>
+            <dd><a href="#">重点科技企业</a></dd>
+            <dd><a href="#">大型仪器设备共享</a></dd>
+          </dl>
+        </dl>
+        <dl id="exchange_cooperate" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>交流合作</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">国际学院</a></dd>
+            <dd><a href="#">孔子学院</a></dd>
+            <dd><a href="#">昆山杜克大学</a></dd>
+            <dd><a href="#">汉推基地</a></dd>
+          </dl>
+        </dl>
+        <dl id="cultural_life" class="menu">
+          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+            <span>文化生活</span>
+          </dt>
+          <dl class="item">
+            <dd><a href="#">早期建筑群</a></dd>
+            <dd><a href="#">工会活动</a></dd>
+            <dd><a href="#">学生活动</a></dd>
+            <dd><a href="#">博物馆</a></dd>
+            <dd><a href="#">文体场馆</a></dd>
+          </dl>
+        </dl>
       </div>
     </div>
-    <div class="popup">
-      <ul>
-        <li v-for="msg in data" @click="showMsg">{{msg.firstname}}</li>
-      </ul>
+
+    <div class="scroll_panel">
+      <img id="scroll_img" src="../../static/images/scroll1.jpg"></img>
+      <div id="scroll_caption" class="scroll_panel_caption">
+        <ol>
+          <li @click="scrollImage(1)" class="active"></li>
+          <li @click="scrollImage(2)" class=""></li>
+          <li @click="scrollImage(3)" class=""></li>
+        </ol>
+      </div>
+      <div id="scroll_title" class="item">
+        <a href="#">天高云淡珞珈秋</a>
+      </div>
     </div>
+
+    <div class="content"></div>
+    <div class="commom_bottom"></div>
+    <div class="common_copyright"></div>
   </div>
 </template>
 
 <script>
 export default {
   methods: {
-    showMsg: function(){
-      alert('test');
+    showTabList: function(e){
+      var attr = e.target.parentNode.attributes;
+      var node = '';
+      for(let i=0;i<attr.length;i++){
+        if(attr[i].name === 'id'){
+          node = '#' + attr[i].value + ' dl';
+          break;
+        }
+      }
+      $(node).addClass('active');
+    },
+    hiddenTabList: function(e){
+      var attr = e.target.parentNode.attributes;
+      var node = '';
+      for(let i=0;i<attr.length;i++){
+        if(attr[i].name === 'id'){
+          node = '#' + attr[i].value + ' dl';
+          break;
+        }
+      }
+      $(node).removeClass('active');
+    },
+    scrollImage: function(index){
+      var src = "../../static/images/scroll"+index+".jpg";
+      var title = "";
+      if(index === 1){
+        title = "天高云淡珞珈秋";
+      }else if(index === 2){
+        title = "明月清风伴珞珈";
+      }else if(index === 3){
+        title = "浅吟低唱颂师恩";
+      }
+
+      var attr = $('#scroll_caption ol li');
+      var node = '';
+      for(let i=0;i<attr.length;i++){
+        for(let j=0;j<attr[i].attributes.length;j++){
+          if(attr[i].attributes[j].name === 'class'){
+            attr[i].attributes[j].value = '';
+            break;
+          }
+        }
+      }
+      for(let k=0;k<$('#scroll_caption ol li')[index-1].attributes.length;k++){
+        if($('#scroll_caption ol li')[index-1].attributes[k].name === 'class'){
+          $('#scroll_caption ol li')[index-1].attributes[k].value = 'active';
+          break;
+        }
+      }
+      $('#scroll_title a')[0].text = title;
+      $('#scroll_img').attr("src",src);
     }
   },
   attached() {
@@ -90,15 +241,19 @@ export default {
 
 ul {
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-ul li {
+.person_navbar ul li {
   list-style-type:none;
   float:left;
   margin: 0 5px;
 }
 
 .system_navbar ul li {
+  list-style-type:none;
+  float:left;
   margin: 0 20px;
 }
 
@@ -133,38 +288,171 @@ input {
   padding: 3px 8px;
 }
 
-.mdl-layout__tab-bar {
-  height: 108px;
+.tab_bar_list {
   background-color:#fff;
+  padding: 0;
+  position: relative;
+  width: 1166px;
+  left: 50%;
+  margin-left: -583px;
+  height: 108px;
 }
 
-.mdl-layout__tab-bar a {
+.tab_bar_list a {
   color: #000;
   font-size: 18px;
   text-decoration: none;
   padding:0 10px;
 }
 
-.mdl-layout__tab:hover {
-  color:blue;
-}
-
 .logo {
-  background-image:url("../images/logo.png");
+  background-image:url("../../static/images/logo.png");
   background-repeat:no-repeat;
-  width: 250px;
+  width: 265px;
   height: 78px;
-  margin: 15px 0;
+  margin: 15px 5px;
+  float: left;
 }
 
 .tab_bar {
-  height: 108px;
-  width: calc(100% - 250px);
+  height: 78px;
+  margin: 15px 0px 0px 300px;
 }
 
-.tab_bar ul li {
-  position:relative;
-  padding:30px 0;
-  margin:0;
+.tab_bar dl.menu {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+  
+}    
+
+.tab_bar dl.menu dt {
+  height: 70px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.tab_bar dl.menu dt span {
+  position: relative;
+  top: 25px;
+}
+
+.tab_bar dl.menu dt:hover {
+  color: #688C00;
+}
+
+.tab_bar dl.menu dl.item {
+  display: none;
+  margin: 0px 0px 0px -25px;
+  border: 1px solid #EADCDC;
+  width: 150px;
+}
+
+.tab_bar dl.menu dl.item:hover {
+  display: block;
+}
+
+.tab_bar dl.menu dl.item dd {
+  margin: 0px;
+  text-align: center;
+  height: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.tab_bar dl.menu dl.item dd:hover {
+  background-color: #eee;
+}
+
+.tab_bar dl.menu dl.active {
+  display: block;
+}
+
+.tab_bar dl.menu dl.item dd a {
+  position: relative;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.scroll_panel {
+  position: relative;
+  width: 1166px;
+  left: 50%;
+  margin-left: -583px;
+  height: 400px;
+}
+
+.scroll_panel img {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll_panel_caption {
+  background: url("../../static/images/bgcolor.png");
+  height: 30px;
+  top: -50px;
+  position: relative;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  width: 150px;
+  float: left;
+}
+
+.scroll_panel_caption ol {
+  left: 0;
+  width: auto;
+  bottom: 0;
+}
+
+.scroll_panel_caption ol li {
+  background-color: #fff;
+  float: left;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+.scroll_panel_caption ol li.active {
+  background-color: #F60201;
+  border_color: #F60201;
+}
+
+.scroll_panel .item {
+  background: url("../../static/images/bgcolor.png");
+  height: 30px;
+  top: -50px;
+  position: relative;
+  z-index: 10;
+  bottom: 0;
+  padding: 10px;
+  margin-left: 170px;
+}
+
+.scroll_panel .item a {
+  position: relative;
+  top: 5px;
+  margin-right: 30px;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.scroll_panel .item a:hover{
+  color: #F60201;
+  text-decoration: underline;
 }
 </style>
