@@ -11,10 +11,16 @@ import App from './components/App'
 import Home from './components/Home'
 import Login from './components/Login'
 
+import Header from './components/common/Header'
+import Bottom from './components/common/Bottom'
+
 Vue.config.debug = true
 Vue.use(Router)
 Vue.use(VueMdl)
 Vue.use(Resource)
+
+Vue.component('common-header',Header)
+Vue.component('common-bottom',Bottom)
 
 let router = new Router({
   history: false
