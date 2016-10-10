@@ -144,7 +144,7 @@ export default {
 
 <style scoped>
 .common_bottom {
-  position: fixed;
+  position: relative;
   bottom: 0;
   height: 460px;
   width: 100%;

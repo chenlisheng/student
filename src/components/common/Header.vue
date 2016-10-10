@@ -1,5 +1,5 @@
 <template>
-  <div class="mdl-layout mdl-js-layout">
+  <div class="mdl-layout">
     <header class="mdl-layout__header  mdl-layout__header--seamed">
       <div class="mdl-layout__header-row">
         <div class="mdl-layout-title">
@@ -170,6 +170,12 @@ export default {
 
 
 <style scoped>
+.mdl-layout {
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 .mdl-layout__header-row a {
   color: #fff;
   font-size: 14px;
