@@ -146,13 +146,12 @@ export default {
 .common_bottom {
   position: relative;
   bottom: 0;
-  height: 460px;
+  height: 360px;
   width: 100%;
   background: #fff;
 }
 
 .bottom {
-  padding: 50px 0;
   background: #F6F6F6;
   position: relative;
   height: 280px;
@@ -240,20 +239,20 @@ export default {
 }
 
 .bottom .bottom_content .bottom_toggleCode ul li div.codeSpan{
-  left: -230px;
-  top: -230px;
+  left: -205px;
+  top: -210px;
   padding: 10px;
   background: #fff;
   position: relative;
   bottom: 0;
   right: 100%;
-  width: 200px;
+  width: 180px;
   display: none;
   box-shadow: 1px 1px 2px rgba(0,0,0,.15);
 }
 
 .bottom .bottom_content .bottom_toggleCode ul li div.codeSpan img{
-  width: 200px;
+  width: 180px;
 }
 
 .bottom .bottom_content .bottom_toggleCode ul li div.active{
