@@ -240,6 +240,7 @@ input {
   margin-left: -583px;
   height: 108px;
   z-index: 999;
+  border-bottom: 1px solid #ddd;
 }
 
 .tab_bar_list a {

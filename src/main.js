@@ -13,6 +13,7 @@ import Login from './components/Login'
 
 import Header from './components/common/Header'
 import Bottom from './components/common/Bottom'
+import Detail from './components/common/Detail'
 
 Vue.config.debug = true
 Vue.use(Router)
@@ -21,6 +22,7 @@ Vue.use(Resource)
 
 Vue.component('common-header',Header)
 Vue.component('common-bottom',Bottom)
+Vue.component('common-detail',Detail)
 
 let router = new Router({
   history: false
@@ -29,7 +31,7 @@ let router = new Router({
 router.map({
   '/': {
     component: function (resolve) {
-      require(['./components/Home.vue'], resolve)
+      require(['./components/common/Detail.vue'], resolve)
     }
   }
 })

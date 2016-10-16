@@ -20,7 +20,7 @@
       <div class="row">
         <p class="row_title">
           <span class="title">头条新闻HEADLINE</span>
-          <a href="#"><span class="icon icon-c"></span>武大新闻网</a>
+          <a href="#" style=" margin-top: 18px;"><span class="icon icon-c"></span>武大新闻网</a>
         </p>
         <div class="row_panel">
           <div class="panel">
@@ -132,7 +132,8 @@
       </div>
 
       <div class="row">
-        <div style="width: 33.333333%;">
+        <div style="height: 360px;">
+        <div style="width: 33.333333%;float: left;">
           <p class="row_title intro_title">
             <span class="title">珞珈新闻NEWS</span>
             <a href="#"><span class="icon icon-more"></span>更多</a>
@@ -167,7 +168,7 @@
           </div>
         </div>
 
-        <div style="width: 33.333333%;">
+        <div style="width: 33.333333%;float: left;">
           <p class="row_title intro_title">
             <span class="title">珞珈新闻NEWS</span>
             <a href="#"><span class="icon icon-more"></span>更多</a>
@@ -202,7 +203,7 @@
           </div>
         </div>
 
-        <div style="width: 33.333333%;">
+        <div style="width: 33.333333%;float: left;">
           <p class="row_title intro_title">
             <span class="title">珞珈新闻NEWS</span>
             <a href="#"><span class="icon icon-more"></span>更多</a>
@@ -236,8 +237,58 @@
             </ul>
           </div>
         </div>
-
+        </div>
       </div>
+
+      <div class="row">
+        <div style="height: 210px;">
+          <p class="row_title intro_title">
+            <span class="title">专题网站 TOPICS</span>
+            <a href="#"><span class="icon icon-more"></span>更多</a>
+          </p>
+          <div class="panel" style="border-top: 0;width: 25%;">
+            <div>
+              <a href="#" title="“两学一做”学习教育专题">
+                <img src='../../static/images/home3.jpg'/>
+              </a>
+            </div>
+            <div class="panel_body" style="text-align: center;border: 0;">
+              <a class="panel_body_link" href="#" title="“两学一做”学习教育专题">“两学一做”学习教育专题</a>
+            </div>
+          </div>
+          <div class="panel" style="border-top: 0;width: 25%;">
+            <div>
+              <a href="#" title="2016网上校园开放日">
+                <img src='../../static/images/home4.jpg'/>
+              </a>
+            </div>
+            <div class="panel_body" style="text-align: center;border: 0;">
+              <a class="panel_body_link" href="#" title="2016网上校园开放日">2016网上校园开放日</a>
+            </div>
+          </div>
+          <div class="panel" style="border-top: 0;width: 25%;">
+            <div>
+              <a href="#" title="武汉大学本科招生网">
+                <img src='../../static/images/home5.jpg'/>
+              </a>
+            </div>
+            <div class="panel_body" style="text-align: center;border: 0;">
+              <a class="panel_body_link" href="#" title="武汉大学本科招生网">武汉大学本科招生网</a>
+            </div>
+          </div>
+          <div class="panel" style="border-top: 0;width: 25%;">
+            <div>
+              <a href="#" title="迎新网">
+                <img src='../../static/images/home6.jpg'/>
+              </a>
+            </div>
+            <div class="panel_body" style="text-align: center;border: 0;">
+              <a class="panel_body_link" href="#" title="迎新网">迎新网</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <common-bottom id="home_bottom"></common-bottom>
@@ -409,7 +460,7 @@ export default {
   font-size: 12px;
   height: 16px;
   float: right;
-  margin-top: 18px;
+  margin-top: 25px;
   text-decoration: none;
   color: #666;
 }
