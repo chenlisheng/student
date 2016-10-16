@@ -162,12 +162,13 @@ export default {
   width: 1166px;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
 }
 
 .bottom .bottom_content .bottom_log {
   width: 33%;
   height: 100%;
-  float: left;
 }
 
 .bottom .bottom_content .bottom_log p {
@@ -184,7 +185,6 @@ export default {
 .bottom .bottom_content .bottom_link {
   width: 42%;
   height: 100%;
-  float: left;
 }
 
 .bottom .bottom_content .bottom_link .list {
@@ -216,7 +216,6 @@ export default {
 .bottom .bottom_content .bottom_toggleCode {
   width: 25%;
   height: 100%;
-  float: left;
 }
 
 .bottom .bottom_content .bottom_toggleCode ul {

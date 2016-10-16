@@ -36,8 +36,8 @@
       </div>
       <div class="tab_bar">
         <dl id="school_survey" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
-            <span>学校概况</span>
+          <dt>
+            <span @mouseover="showTabList('school_survey')" @mouseout="showTabList('school_survey')">学校概况</span>
           </dt>
           <dl class="item">
             <dd><a href="#">学校简介</a></dd>
@@ -52,7 +52,7 @@
           </dl>
         </dl>
         <dl id="organization_setup" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('organization_setup')" @mouseout="showTabList('organization_setup')">
             <span>机构设置</span>
           </dt>
           <dl class="item">
@@ -64,7 +64,7 @@
           </dl>
         </dl>
         <dl id="teacher_staff" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('teacher_staff')" @mouseout="showTabList('teacher_staff')">
             <span>师资队伍</span>
           </dt>
           <dl class="item">
@@ -76,7 +76,7 @@
           </dl>
         </dl>
         <dl id="talent_cultivation" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('talent_cultivation')" @mouseout="showTabList('talent_cultivation')">
             <span>人才培养</span>
           </dt>
           <dl class="item">
@@ -88,7 +88,7 @@
           </dl>
         </dl>
         <dl id="scientific_research" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('scientific_research')" @mouseout="showTabList('scientific_research')">
             <span>科学研究</span>
           </dt>
           <dl class="item">
@@ -100,7 +100,7 @@
           </dl>
         </dl>
         <dl id="social_services" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('social_services')" @mouseout="showTabList('social_services')" >
             <span>社会服务</span>
           </dt>
           <dl class="item">
@@ -112,7 +112,7 @@
           </dl>
         </dl>
         <dl id="exchange_cooperate" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('exchange_cooperate')" @mouseout="showTabList('exchange_cooperate')">
             <span>交流合作</span>
           </dt>
           <dl class="item">
@@ -123,7 +123,7 @@
           </dl>
         </dl>
         <dl id="cultural_life" class="menu">
-          <dt @mouseover="showTabList($event)" @mouseout="hiddenTabList($event)">
+          <dt @mouseover="showTabList('cultural_life')" @mouseout="showTabList('cultural_life')">
             <span>文化生活</span>
           </dt>
           <dl class="item">
@@ -142,27 +142,12 @@
 <script>
 export default {
   methods: {
-    showTabList: function(e){
-      var attr = e.target.parentNode.attributes;
-      var node = '';
-      for(let i=0;i<attr.length;i++){
-        if(attr[i].name === 'id'){
-          node = '#' + attr[i].value + ' dl';
-          break;
-        }
-      }
-      $(node).addClass('active');
-    },
-    hiddenTabList: function(e){
-      var attr = e.target.parentNode.attributes;
-      var node = '';
-      for(let i=0;i<attr.length;i++){
-        if(attr[i].name === 'id'){
-          node = '#' + attr[i].value + ' dl';
-          break;
-        }
-      }
-      $(node).removeClass('active');
+    showTabList: function(id){
+      if($('#'+id+' dl.item').hasClass('active')){
+        $('#'+id+' dl.item').removeClass('active');
+      }else{
+        $('#'+id+' dl.item').addClass('active');
+      } 
     }
   }
 }

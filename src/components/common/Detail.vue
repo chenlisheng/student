@@ -118,11 +118,8 @@ export default {
             }
             break;
           }
-
         }
-        
       }
-      $('#detail_list_name li.item')
     },
 
     showList: function(e){

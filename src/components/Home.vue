@@ -24,219 +24,232 @@
         </p>
         <div class="row_panel">
           <div class="panel">
-            <div class="panel_image">
-              <a href="#" title="武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录">
-                <img src='../../static/images/home1.jpg' style="height: 270px;"/>
-              </a>
-            </div>
-            <div class="panel_body">
-              <a class="panel_body_link" href="#" title="武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录">武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录</a>
-              <span>由中国文物学会20世纪建筑遗产委员会评出，包括人民大会堂等98项。</span>
+            <div class="panel_box">
+              <div class="panel_image">
+                <a href="#" title="武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录">
+                  <img src='../../static/images/home1.jpg' style="height: 263px;"/>
+                </a>
+              </div>
+              <div class="panel_body">
+                <a class="panel_body_link" href="#" title="武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录">武汉大学早期建筑入选“首批中国20世纪建筑遗产”名录</a>
+                <span>由中国文物学会20世纪建筑遗产委员会评出，包括人民大会堂等98项。</span>
+              </div>
             </div>
           </div>
 
           <div class="panel">
-            <ul>
-              <li>
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+            <div class="panel_box showborder">
+              <ul class="image_ul">
+                <li>
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-              <li>
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-              <li class="end">
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                </li>
+                <li>
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-            </ul>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
+                  </div>
+                </li>
+                <li class="end">
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
+                  </div>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         
           <div class="panel">
-            <ul>
-              <li>
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+            <div class="panel_box showborder">
+              <ul class="image_ul">
+                <li>
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-              <li>
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-              <li class="end">
-                <div class="panel_image_small">
-                  <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
-                    <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
-                  </a>
-                </div>
-                <div class="panel_body_small">
-                  <div>
-                    <a class="panel_body_link_small" href="#" 
-                    title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                </li>
+                <li>
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
                   </div>
-                  <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
-                </div>
-              </li>
-            </ul>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
+                  </div>
+                </li>
+                <li class="end">
+                  <div class="panel_image_small">
+                    <a href="#" title="韩进率团赴新疆出席对口支援15周年总结会">
+                      <img src='../../static/images/home2.png' style="width: 120px;height: 84px;"/>
+                    </a>
+                  </div>
+                  <div class="panel_body_small">
+                    <div>
+                      <a class="panel_body_link_small" href="#" 
+                      title="韩进率团赴新疆出席对口支援15周年总结会">韩进率团赴新疆出席对口支援15周年总结会</a>
+                    </div>
+                    <span>签署对口支援新疆大学“十三五”建设目标协议书和新学年工作协议。</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
+
         </div>
       </div>
 
       <div class="row">
         <div style="height: 360px;">
-        <div style="width: 33.333333%;float: left;">
-          <p class="row_title intro_title">
-            <span class="title">珞珈新闻NEWS</span>
-            <a href="#"><span class="icon icon-more"></span>更多</a>
-          </p>
-          <div class="intro_list">
-            <ul>
-              <li>
-                <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
-              </li>
-              <li>
-                <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
-              </li>
-              <li>
-                <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
-              </li>
-              <li>
-                <a href="#" title="停水通知" target="_blank">停水通知</a>
-              </li>
-              <li>
-                <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
-              </li>
-              <li>
-                <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
-              </li>
-            </ul>
+          <div class="panel">
+            <div class="panel_box noborder">
+              <p class="row_title intro_title">
+                <span class="title">珞珈新闻NEWS</span>
+                <a href="#"><span class="icon icon-more"></span>更多</a>
+              </p>
+              <div class="intro_list">
+                <ul class="intro_ul">
+                  <li>
+                    <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
+                  </li>
+                  <li>
+                    <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
+                  </li>
+                  <li>
+                    <a href="#" title="停水通知" target="_blank">停水通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div style="width: 33.333333%;float: left;">
-          <p class="row_title intro_title">
-            <span class="title">珞珈新闻NEWS</span>
-            <a href="#"><span class="icon icon-more"></span>更多</a>
-          </p>
-          <div class="intro_list">
-            <ul>
-              <li>
-                <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
-              </li>
-              <li>
-                <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
-              </li>
-              <li>
-                <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
-              </li>
-              <li>
-                <a href="#" title="停水通知" target="_blank">停水通知</a>
-              </li>
-              <li>
-                <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
-              </li>
-              <li>
-                <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
-              </li>
-            </ul>
+          <div class="panel">
+            <div class="panel_box noborder">
+              <p class="row_title intro_title">
+                <span class="title">珞珈新闻NEWS</span>
+                <a href="#"><span class="icon icon-more"></span>更多</a>
+              </p>
+              <div class="intro_list">
+                <ul class="intro_ul">
+                  <li>
+                    <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
+                  </li>
+                  <li>
+                    <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
+                  </li>
+                  <li>
+                    <a href="#" title="停水通知" target="_blank">停水通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div style="width: 33.333333%;float: left;">
-          <p class="row_title intro_title">
-            <span class="title">珞珈新闻NEWS</span>
-            <a href="#"><span class="icon icon-more"></span>更多</a>
-          </p>
-          <div class="intro_list">
-            <ul>
-              <li>
-                <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
-              </li>
-              <li>
-                <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
-              </li>
-              <li>
-                <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
-              </li>
-              <li>
-                <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
-              </li>
-              <li>
-                <a href="#" title="停水通知" target="_blank">停水通知</a>
-              </li>
-              <li>
-                <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
-              </li>
-              <li>
-                <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
-              </li>
-            </ul>
+          <div class="panel">
+            <div class="panel_box noborder">
+              <p class="row_title intro_title">
+                <span class="title">珞珈新闻NEWS</span>
+                <a href="#"><span class="icon icon-more"></span>更多</a>
+              </p>
+              <div class="intro_list">
+                <ul class="intro_ul">
+                  <li>
+                    <a href="#" title="珞珈讲坛第144讲预告" target="_blank">珞珈讲坛第144讲预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于实行冬季作息时间的通知" target="_blank">关于实行冬季作息时间的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）" target="_blank">武汉大学测绘学科60年发展回顾暨世界一流学科建设高端论坛公告（二号）</a>
+                  </li>
+                  <li>
+                    <a href="#" title="“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告" target="_blank">“典藏珞珈——王诚浩、溫庆武、袁诚、周秀梅、杨青纸上作品展”预告</a>
+                  </li>
+                  <li>
+                    <a href="#" title="武汉大学面向海内外公开招聘健康学院院长启事" target="_blank">武汉大学面向海内外公开招聘健康学院院长启事</a>
+                  </li>
+                  <li>
+                    <a href="#" title="停水通知" target="_blank">停水通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="关于后勤保障部办公电话光纤改造的通知" target="_blank">关于后勤保障部办公电话光纤改造的通知</a>
+                  </li>
+                  <li>
+                    <a href="#" title="致武昌选民书" target="_blank">致武昌选民书</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
@@ -497,22 +510,37 @@ export default {
 .panel {
   width: 33.333333%;
   border: 0;
-  border-top: 2px solid #688C00;
   float: left;
 }
 
+.panel_box {
+  border-top: 2px solid #688C00;
+  width: calc(100% - 10px);
+  margin: 0 5px;
+}
+
+.noborder {
+  border-top: 0;
+}
+
+.showborder {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
 .panel_image {
-  height: 270px;
+  height: 263px;
 }
 
 .panel_body {
   border: 1px solid #eee;
   border-top: 0;
-  padding: 10px 20px;
+  padding: 20px;
 }
 
 a.panel_body_link {
-  max-width: 350px;
+  max-width: 340px;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -525,6 +553,8 @@ a.panel_body_link:hover,a.panel_body_link_small:hover {
 }
 
 .panel_body span{
+  max-width: 340px;
+  display: inline-block;
   font-size: 14px;
   color: #666;
 }
@@ -533,25 +563,24 @@ a.panel_body_link:hover,a.panel_body_link_small:hover {
   float: left;
 }
 
-.panel ul {
-  margin: 0;
+ul.image_ul {
+  margin: 10px;
   padding: 0;
 }
 
-.panel ul li {
-  list-style: none;
-  border-bottom: 1px solid #ddd;
-  margin: 0 10px;
+ul.image_ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
 }
 
-.panel ul li.end {
+ul.image_ul li.end {
   border-bottom: 0px;
 }
 
 .panel_body_small span {
   font-size: 14px;
   color: #666;
-  max-width: 225px;
+  max-width: 220px;
   display: inline-block;
   margin-left: 10px;
 }
@@ -562,7 +591,7 @@ a.panel_body_link:hover,a.panel_body_link_small:hover {
 
 a.panel_body_link_small {
   font-size: 16px;
-  max-width: 225px;
+  max-width: 220px;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
@@ -580,19 +609,19 @@ a.panel_body_link_small {
   width: 100%;
 }
 
-.intro_list ul {
+ul.intro_ul {
   margin: 0;
   padding: 0;
 }
 
-.intro_list ul li {
+ul.intro_ul li {
   list-style: none;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.intro_list ul li a {
+ul.intro_ul li a {
   font-size: 14px;
   text-decoration: none;
   color: #666;
@@ -603,7 +632,7 @@ a.panel_body_link_small {
   text-overflow: ellipsis;
 }
 
-.intro_list ul li a:hover {
+ul.intro_ul li a:hover {
   color: #688C00;
   text-decoration: underline;
 }

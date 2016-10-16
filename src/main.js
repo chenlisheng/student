@@ -31,7 +31,7 @@ let router = new Router({
 router.map({
   '/': {
     component: function (resolve) {
-      require(['./components/common/Detail.vue'], resolve)
+      require(['./components/Home.vue'], resolve)
     }
   }
 })
