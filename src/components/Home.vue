@@ -2,21 +2,21 @@
   <div class="home">
     <common-header id="home_header"></common-header>
   
-    <div class="content">
-      <div class="scroll_panel">
-        <img id="scroll_img" src="../../static/images/scroll1.jpg"></img>
-        <div id="scroll_caption" class="scroll_panel_caption">
-          <ol>
-            <li @click="scrollImage(1)" class="active"></li>
-            <li @click="scrollImage(2)" class=""></li>
-            <li @click="scrollImage(3)" class=""></li>
-          </ol>
-        </div>
-        <div id="scroll_title" class="item">
-          <a href="#">天高云淡珞珈秋</a>
-        </div>
+    <div class="scroll_panel">
+      <img id="scroll_img" src="../../static/images/scroll1.jpg"></img>
+      <div id="scroll_caption" class="scroll_panel_caption">
+        <ol>
+          <li @click="scrollImage(1)" class="active"></li>
+          <li @click="scrollImage(2)" class=""></li>
+          <li @click="scrollImage(3)" class=""></li>
+        </ol>
       </div>
-
+      <div id="scroll_title" class="item">
+        <a href="#">天高云淡珞珈秋</a>
+      </div>
+    </div>
+    
+    <div class="content">
       <div class="row">
         <p class="row_title">
           <span class="title">头条新闻HEADLINE</span>
@@ -379,6 +379,9 @@ export default {
 .scroll_panel {
   position: relative;
   height: 400px;
+  width: 1166px;
+  left: 50%;
+  margin-left: -583px;
   z-index: 2;
 }
 
