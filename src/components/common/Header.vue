@@ -36,8 +36,8 @@
       <div class="tab_bar">
         <ul>
           <li id="school_survey" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('school_survey')" @mouseout="showTabList('school_survey')">学校概况</span>
+            <div class="menu_title" @mouseover="showTabList('school_survey')" @mouseout="showTabList('school_survey')">
+              <span>学校概况</span>
             </div>
               <ul class="item">
                 <li><a href="#">学校简介</a></li>
@@ -53,8 +53,8 @@
           </li>
 
           <li id="organization_setup" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('organization_setup')" @mouseout="showTabList('organization_setup')">机构设置</span>
+            <div class="menu_title" @mouseover="showTabList('organization_setup')" @mouseout="showTabList('organization_setup')">
+              <span>机构设置</span>
             </div>
             <ul class="item">
               <li><a href="#">院系设置</a></li>
@@ -66,8 +66,8 @@
           </li>
 
           <li id="teacher_staff" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('teacher_staff')" @mouseout="showTabList('teacher_staff')">师资队伍</span>
+            <div class="menu_title" @mouseover="showTabList('teacher_staff')" @mouseout="showTabList('teacher_staff')">
+              <span>师资队伍</span>
             </div>
             <ul class="item">
               <li><a href="#">两院院士</a></li>
@@ -79,8 +79,8 @@
           </li>
 
           <li id="talent_cultivation" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('talent_cultivation')" @mouseout="showTabList('talent_cultivation')">人才培养</span>
+            <div class="menu_title" @mouseover="showTabList('talent_cultivation')" @mouseout="showTabList('talent_cultivation')">
+              <span>人才培养</span>
             </div>
             <ul class="item">
               <li><a href="#">本科生教育</a></li>
@@ -92,8 +92,8 @@
           </li>
 
           <li id="scientific_research" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('scientific_research')" @mouseout="showTabList('scientific_research')">科学研究</span>
+            <div class="menu_title" @mouseover="showTabList('scientific_research')" @mouseout="showTabList('scientific_research')">
+              <span>科学研究</span>
             </div>
             <ul class="item">
               <li><a href="#">2011计划</a></li>
@@ -105,8 +105,8 @@
           </li>
 
           <li id="social_services" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('social_services')" @mouseout="showTabList('social_services')">社会服务</span>
+            <div class="menu_title" @mouseover="showTabList('social_services')" @mouseout="showTabList('social_services')">
+              <span>社会服务</span>
             </div>
             <ul class="item">
               <li><a href="#">驻外研究机构</a></li>
@@ -118,8 +118,8 @@
           </li>
 
           <li id="exchange_cooperate" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('exchange_cooperate')" @mouseout="showTabList('exchange_cooperate')">交流合作</span>
+            <div class="menu_title" @mouseover="showTabList('exchange_cooperate')" @mouseout="showTabList('exchange_cooperate')">
+              <span>交流合作</span>
             </div>
             <ul class="item">
               <li><a href="#">国际学院</a></li>
@@ -130,8 +130,8 @@
           </li>
 
           <li id="cultural_life" class="menu">
-            <div class="menu_title">
-              <span @mouseover="showTabList('cultural_life')" @mouseout="showTabList('cultural_life')">文化生活</span>
+            <div class="menu_title" @mouseover="showTabList('cultural_life')" @mouseout="showTabList('cultural_life')">
+              <span>文化生活</span>
             </div>
             <ul class="item">
               <li><a href="#">早期建筑群</a></li>
@@ -167,6 +167,7 @@ export default {
   height: auto;
   overflow-y: hidden;
   overflow-x: hidden;
+  position: static;
 }
 
 .mdl-layout__header-row a {
@@ -177,8 +178,6 @@ export default {
 
 ul {
   margin: 0;
-  height: 100%;
-  width: 100%;
 }
 
 li{
@@ -231,12 +230,9 @@ input {
 .tab_bar_list {
   background-color:#fff;
   padding: 0;
-  position: relative;
   width: 1166px;
-  left: 50%;
-  margin-left: -583px;
   height: 108px;
-  z-index: 999;
+  margin: 0 auto;
 }
 
 .tab_bar_list a {
@@ -296,6 +292,8 @@ input {
   margin-left: -25px;
   border: 1px solid #EADCDC;
   width: 150px;
+  position:absolute;
+  z-index: 1000;
 }
 
 .tab_bar li.menu ul.item:hover {
