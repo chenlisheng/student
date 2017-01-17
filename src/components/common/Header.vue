@@ -70,11 +70,11 @@
               <span>师资队伍</span>
             </div>
             <ul class="item">
-              <li><a href="#">两院院士</a></li>
-              <li><a href="#">人文社科资深教授</a></li>
-              <li><a href="#">国家教学名师</a></li>
-              <li><a href="#">国家杰青</a></li>
-              <li><a href="#">长江学者</a></li>
+              <li><a href="#" v-link="{ path: '/teacher_staff' }">两院院士</a></li>
+              <li><a href="#" v-link="{ path: '/teacher_staff' }">人文社科资深教授</a></li>
+              <li><a href="#" v-link="{ path: '/teacher_staff' }">国家教学名师</a></li>
+              <li><a href="#" v-link="{ path: '/teacher_staff' }">国家杰青</a></li>
+              <li><a href="#" v-link="{ path: '/teacher_staff' }">长江学者</a></li>
             </ul>
           </li>
 

@@ -33,7 +33,19 @@ router.map({
     component: function (resolve) {
       require(['./components/Home.vue'], resolve)
     }
-  }
+  },
+  '/teacher_staff': {
+    component: function (resolve) {
+      require(['./components/common/Detail.vue'], resolve)
+    },
+    subRoutes: {
+      '/': {
+        component: function (resolve) {
+          require(['./components/common/Detail.vue'], resolve)
+        }
+      }
+    }
+  },
 })
 
 
