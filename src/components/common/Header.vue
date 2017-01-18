@@ -35,8 +35,8 @@
       <div class="logo"></div>
       <div class="tab_bar">
         <ul>
-          <li id="school_survey" class="menu">
-            <div class="menu_title" @mouseover="showTabList('school_survey')" @mouseout="showTabList('school_survey')">
+          <li class="menu">
+            <div class="menu_title">
               <span>学校概况</span>
             </div>
               <ul class="item">
@@ -52,8 +52,8 @@
               </ul>
           </li>
 
-          <li id="organization_setup" class="menu">
-            <div class="menu_title" @mouseover="showTabList('organization_setup')" @mouseout="showTabList('organization_setup')">
+          <li class="menu">
+            <div class="menu_title">
               <span>机构设置</span>
             </div>
             <ul class="item">
@@ -65,8 +65,8 @@
             </ul>
           </li>
 
-          <li id="teacher_staff" class="menu">
-            <div class="menu_title" @mouseover="showTabList('teacher_staff')" @mouseout="showTabList('teacher_staff')">
+          <li class="menu">
+            <div class="menu_title">
               <span>师资队伍</span>
             </div>
             <ul class="item">
@@ -78,8 +78,8 @@
             </ul>
           </li>
 
-          <li id="talent_cultivation" class="menu">
-            <div class="menu_title" @mouseover="showTabList('talent_cultivation')" @mouseout="showTabList('talent_cultivation')">
+          <li class="menu">
+            <div class="menu_title">
               <span>人才培养</span>
             </div>
             <ul class="item">
@@ -91,8 +91,8 @@
             </ul>
           </li>
 
-          <li id="scientific_research" class="menu">
-            <div class="menu_title" @mouseover="showTabList('scientific_research')" @mouseout="showTabList('scientific_research')">
+          <li class="menu">
+            <div class="menu_title">
               <span>科学研究</span>
             </div>
             <ul class="item">
@@ -104,8 +104,8 @@
             </ul>
           </li>
 
-          <li id="social_services" class="menu">
-            <div class="menu_title" @mouseover="showTabList('social_services')" @mouseout="showTabList('social_services')">
+          <li class="menu">
+            <div class="menu_title">
               <span>社会服务</span>
             </div>
             <ul class="item">
@@ -117,8 +117,8 @@
             </ul>
           </li>
 
-          <li id="exchange_cooperate" class="menu">
-            <div class="menu_title" @mouseover="showTabList('exchange_cooperate')" @mouseout="showTabList('exchange_cooperate')">
+          <li class="menu">
+            <div class="menu_title">
               <span>交流合作</span>
             </div>
             <ul class="item">
@@ -129,8 +129,8 @@
             </ul>
           </li>
 
-          <li id="cultural_life" class="menu">
-            <div class="menu_title" @mouseover="showTabList('cultural_life')" @mouseout="showTabList('cultural_life')">
+          <li class="menu">
+            <div class="menu_title">
               <span>文化生活</span>
             </div>
             <ul class="item">
@@ -150,13 +150,17 @@
 <script>
 export default {
   methods: {
-    showTabList: function(id){
-      if($('#'+id+' ul.item').hasClass('active')){
-        $('#'+id+' ul.item').removeClass('active');
-      }else{
-        $('#'+id+' ul.item').addClass('active');
-      } 
-    }
+    
+  },
+  attached() {
+    $("li.menu").hover(
+      function(){
+        $(this).find('ul.item').addClass('active');
+      },
+      function(){
+        $(this).find('ul.item').removeClass('active');
+      }
+    );
   }
 }
 </script>
